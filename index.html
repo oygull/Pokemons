@@ -8,17 +8,28 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  
- </div>
+<header class="game-header">
+  <div class="header-inner">
+    <p class="level">1</p>
+    <div class="time"><i class='bx bx-timer'></i> <span>1:00</span></div>
+    <div class="points"><i class='bx bxs-star' ></i> <span id="points">0</span></div>
+  </div>
+  <div id="mixup" class="points mixup"><i class='bx bx-transfer' ></i><span>Mix</span></div>
+<button class="mixup"></button>
+<p id="result" class="reult"></p>
+</header>
+  <div id="onet" class="onet">
 
+  </div>
 
-  <script src="js/main.js">
-  </script>
+  <script src="js/objects.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
